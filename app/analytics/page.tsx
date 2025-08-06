@@ -193,3 +193,8 @@ export default function AnalyticsPage() {
     </div>
   )
 }
+
+RUN npm ci --only=production=false
+RUN npm run build
+pnpm-lock.yaml
+pnpm-debug.log*
