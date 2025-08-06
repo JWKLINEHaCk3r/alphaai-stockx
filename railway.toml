@@ -1,0 +1,17 @@
+[build]
+nixPacks = true
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+[variables]
+NODE_ENV = "production"
+PORT = "${{ PORT }}"
+NPM_CONFIG_LEGACY_PEER_DEPS = "true"
+
+[networking]
+servicePort = 3000

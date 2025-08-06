@@ -1,3 +1,50 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-6e49c47c96a80577.js",
+      "static/chunks/517-d302dc4cbb440ebe.js",
+      "static/chunks/main-app-28901d72f300c158.js",
+      "static/chunks/app/_not-found/page-3a87e89c22061337.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-6e49c47c96a80577.js",
+      "static/chunks/517-d302dc4cbb440ebe.js",
+      "static/chunks/main-app-28901d72f300c158.js",
+      "static/css/aaad2b1c55065d01.css",
+      "static/chunks/173-66f1c45955b869a3.js",
+      "static/chunks/642-bed13928b0dadbf7.js",
+      "static/chunks/app/layout-1381e1b606327cbc.js"
+    ],
+    "/ai-trading/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-6e49c47c96a80577.js",
+      "static/chunks/517-d302dc4cbb440ebe.js",
+      "static/chunks/main-app-28901d72f300c158.js",
+      "static/chunks/app/ai-trading/page-74910436ff4e4d0e.js"
+    ],
+    "/analytics/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-6e49c47c96a80577.js",
+      "static/chunks/517-d302dc4cbb440ebe.js",
+      "static/chunks/main-app-28901d72f300c158.js",
+      "static/chunks/app/analytics/page-a61edc46fc7e68b7.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-6e49c47c96a80577.js",
+      "static/chunks/517-d302dc4cbb440ebe.js",
+      "static/chunks/main-app-28901d72f300c158.js",
+      "static/chunks/173-66f1c45955b869a3.js",
+      "static/chunks/app/page-fba17155440be9e3.js"
+    ],
+    "/portfolio/page": [
+      "static/chunks/webpack-68f22649503f8e75.js",
+      "static/chunks/4bd1b696-6e49c47c96a80577.js",
+      "static/chunks/517-d302dc4cbb440ebe.js",
+      "static/chunks/main-app-28901d72f300c158.js",
+      "static/chunks/app/portfolio/page-a5ecac17c0dd252f.js"
+    ]
+  }
 }

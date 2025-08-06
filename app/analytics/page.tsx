@@ -1,5 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
 import { TrendingUp, TrendingDown, BarChart3, PieChart, Activity, Target } from 'lucide-react'
 
 export default function AnalyticsPage() {
