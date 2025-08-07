@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/sensitive areas (add as needed)
+# Disallow: /admin/
+# Disallow: /api/private/
+
+# Sitemap location
+Sitemap: https://alphaai-stockx.com/sitemap.xml

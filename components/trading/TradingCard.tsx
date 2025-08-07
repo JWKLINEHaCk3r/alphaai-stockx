@@ -19,6 +19,17 @@ export function TradingCard({
   outlook,
   risk
 }: TradingCardProps) {
+  // Input validation
+  if (!symbol || typeof price !== 'number' || typeof change !== 'number') {
+    return (
+      <Card className="bg-gray-900 border-gray-800">
+        <CardContent className="p-6">
+          <p className="text-red-400">Invalid trading data</p>
+        </CardContent>
+      </Card>
+    )
+  }
+
   const isPositive = change > 0
   const outlookColor = outlook === 'bullish' ? 'text-green-400' : outlook === 'bearish' ? 'text-red-400' : 'text-yellow-400'
   const riskColor = risk === 'low' ? 'text-green-400' : risk === 'medium' ? 'text-yellow-400' : 'text-red-400'
